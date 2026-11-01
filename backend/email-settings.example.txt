@@ -1,0 +1,13 @@
+# Open this file in Notepad, paste your Gmail app password after SMTP_PASS=, save, then start the website again.
+# Never share this file or upload it to GitHub: it holds a password.
+#
+# Gmail setup (2 minutes):
+#  1. Open https://myaccount.google.com/security and switch on 2-Step Verification.
+#  2. Open https://myaccount.google.com/apppasswords , make an app password named "homestay website".
+#  3. Paste it below (the 16 letters; spaces are fine).
+
+SMTP_USER=Samarthanaik55@gmail.com
+SMTP_PASS= Samartha@123
+# Where enquiries are delivered (leave out to use SMTP_USER)
+MAIL_TO=Samarthanaik55@gmail.com
+SITE_NAME=Skanda Homestay

@@ -1,0 +1,8 @@
+{
+  "name": "homestay",
+  "private": true,
+  "type": "module",
+  "description": "Homestay website (frontend/) and its enquiry backend (backend/, api/).",
+  "scripts": { "start": "node start.mjs", "test": "node --test backend/tests/*.test.mjs && npm --prefix frontend test" },
+  "engines": { "node": ">=20" }
+}

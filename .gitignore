@@ -1,0 +1,5 @@
+node_modules/
+frontend/dist/
+# holds the Gmail app password: never upload
+backend/email-settings.txt
+.env

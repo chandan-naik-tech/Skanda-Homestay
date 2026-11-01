@@ -1,0 +1,3 @@
+backend/email-settings.txt
+.env
+**/node_modules
