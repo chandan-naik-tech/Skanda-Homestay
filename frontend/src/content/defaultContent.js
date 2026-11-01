@@ -59,7 +59,7 @@ export const defaultContent = {
     lead: 'Peaceful and well-maintained 1BHK, strictly for families.',
     closing:
       'Whether you are visiting for a holiday, exploring nearby attractions, traveling for work, or simply looking for a peaceful place to relax, our homestay is designed to offer a comfortable and welcoming experience.',
-    bedrooms: '1 bedroom', // a 1BHK has one bedroom
+    bedrooms: '2 bedrooms', // updated to 2 bedrooms
     livingArea: 'Well maintained, with good space available',
     kitchen: 'Basic use only: heating milk or water, tea and coffee',
     bathroom: 'Clean and hygienic',
