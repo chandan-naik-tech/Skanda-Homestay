@@ -81,7 +81,7 @@ export default function Booking() {
       <div className="wrap">
         <SectionHead
           id="book-title"
-          title="Check availability"
+          title={content.booking?.title || 'Contact for Reservations'}
           lede="Tell us your dates and a few details. Your enquiry goes straight to the host, who will reply to you. This is an enquiry, not a confirmed booking."
         />
 

@@ -7,10 +7,11 @@ import DriveCard from './DriveCard.jsx';
 
 export default function Hero() {
   const { content } = useSite();
-  const { hero, property, location, brand } = content;
+  const { hero, property, location, brand, booking } = content;
   const headline = hero.headline || brand.tagline;
-  const [first, ...rest] = headline.split(/,\s*/);
-  const lines = rest.length ? [`${first},`, rest.join(', ')] : [headline];
+  const lines = hero.lines || (headline.includes('–')
+    ? [`${headline.split(/\s*–\s*/)[0]} –`, headline.split(/\s*–\s*/).slice(1).join(' – ')]
+    : (headline.includes(',') ? [`${headline.split(/,\s*/)[0]},`, headline.split(/,\s*/).slice(1).join(', ')] : [headline]));
   const drive = (location.driveTimes || []).filter((d) => filled(d.place) && filled(d.time));
 
   return (
@@ -25,7 +26,7 @@ export default function Hero() {
           <p className="hero__sub">{hero.subtext}</p>
           <div className="hero__actions">
             <Link to="/#about" className="btn btn--primary btn--lg">Explore the Stay</Link>
-            <Link to="/#book" className="btn btn--secondary btn--lg">Check Availability</Link>
+            <Link to="/#book" className="btn btn--secondary btn--lg">{booking?.cta || 'Contact for Reservations'}</Link>
           </div>
         <DriveCard drive={drive} />
         </div>
@@ -41,12 +42,12 @@ export default function Hero() {
         <dl className="hero__facts" aria-label="The stay at a glance">
           <div>
             <LuHouse aria-hidden="true" />
-            <dt>Stay</dt>
-            <dd>Entire 1BHK accommodation</dd>
+            <dt>Accommodation</dt>
+            <dd>{property.accommodation || 'Comfortable 1BHK Stay'}</dd>
           </div>
           <div>
             <LuUsers aria-hidden="true" />
-            <dt>Guests</dt>
+            <dt>Target visitors</dt>
             <dd>
               {filled(property.guestsLabel)
                 ? property.guestsLabel

@@ -19,11 +19,12 @@ export default function About() {
   const rules = (p.houseRules || []).filter((r) => filled(r.text));
 
   const details = [
+    ['Accommodation', p.accommodation || 'Comfortable 1BHK Stay', 'accommodation details'],
+    ['Target visitors', p.guestsLabel || 'Families and Travellers', 'target visitors'],
     ['Bedrooms', p.bedrooms, 'bedrooms'],
     ['Living area', p.livingArea, 'living area details'],
     ['Kitchen', p.kitchen, 'kitchen details'],
     ['Bathroom', p.bathroom, 'bathroom details'],
-    filled(p.guestsLabel) ? ['Guests', p.guestsLabel, 'guests'] : ['Maximum guests', filled(p.maxGuests) ? `${p.maxGuests} guests` : '', 'maximum guests'],
     ['Parking', p.parking, 'parking details'],
     ['Wi-Fi', p.wifi, 'Wi-Fi details'],
     ['Location', location.general, 'location'],

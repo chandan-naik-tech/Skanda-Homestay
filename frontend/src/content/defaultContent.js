@@ -23,13 +23,13 @@ export const defaultContent = {
 
   brand: {
     name: 'Skanda Homestay', // the homestay name (shown everywhere, also in enquiry emails)
-    tagline: 'Stay Comfortably, Feel at Home',
-    description: 'A peaceful, well-maintained 1BHK homestay, strictly for families.',
+    tagline: 'Comfortable 1BHK Stay in Kumta',
+    description: 'A peaceful, well-maintained comfortable 1BHK homestay in Kumta, ideal for families and travellers.',
     logoImage: '', // optional: a logo image of your own (for example '/photos/logo.png') replaces the built-in house-and-wave logo
   },
 
   hero: {
-    headline: 'Stay Comfortably, Feel at Home',
+    headline: 'Skanda Homestay – Kumta',
     subtext: 'Discover a comfortable, welcoming place to stay, where every journey feels a little more like home.',
     image: '/photos/home-front.jpg', // the house, from the front (the owner's own photo)
     imageAlt: 'The house seen from the front, with a car parked under the carport and coconut palms around it',
@@ -56,21 +56,22 @@ export const defaultContent = {
   },
 
   property: {
-    lead: 'Peaceful and well-maintained 1BHK, strictly for families.',
+    lead: 'A peaceful and well-maintained comfortable 1BHK stay, ideal for families and travellers.',
     closing:
       'Whether you are visiting for a holiday, exploring nearby attractions, traveling for work, or simply looking for a peaceful place to relax, our homestay is designed to offer a comfortable and welcoming experience.',
+    accommodation: 'Comfortable 1BHK Stay',
     bedrooms: '2 bedrooms', // updated to 2 bedrooms
     livingArea: 'Well maintained, with good space available',
     kitchen: 'Basic use only: heating milk or water, tea and coffee',
     bathroom: 'Clean and hygienic',
     maxGuests: null, // a number, e.g. 4. Also limits what visitors can enquire for.
-    guestsLabel: '1 Family', // the words shown for "Guests" on the home page. If empty, "Up to <maxGuests> guests" is used
+    guestsLabel: 'Families and Travellers', // Target visitors shown on the home page
     maxRooms: 1, // this is one apartment, so visitors can enquire for 1
     parking: 'Available',
     wifi: 'Mobile networks available (Jio, Airtel, BSNL, etc.)',
     // icon options: family, pets, smoking, alcohol, parties, kitchen, power, info
     houseRules: [
-      { icon: 'family', text: 'Strictly for families' },
+      { icon: 'family', text: 'Suitable for families and travellers' },
       { icon: 'pets', text: 'No pets' },
       { icon: 'smoking', text: 'No smoking' },
       { icon: 'alcohol', text: 'No alcohol' },
@@ -169,7 +170,7 @@ export const defaultContent = {
   },
 
   location: {
-    general: 'Hegde, Kumta (U.K)', // the locality and town. Do not add a full address unless you want it public.
+    general: 'Kumta, Uttara Kannada, Karnataka', // the locality and town. Do not add a full address unless you want it public.
     // The map shows the area (Hegde, Kumta). For the exact house, open Google Maps > your place > Share > "Embed a map",
     // copy the src="..." link into mapEmbedUrl, and the normal Share link into directionsUrl.
     // Pin on the owner's exact spot (coordinates taken from the owner's Google Maps embed).
@@ -192,4 +193,9 @@ export const defaultContent = {
 
   // Add ONLY genuine guest reviews here. Never invent any.
   reviews: [], // e.g. [{ id: 'r1', name: 'A. Sharma', text: '...', rating: 5, stay: 'March 2027' }]
+
+  booking: {
+    title: 'Contact for Reservations',
+    cta: 'Contact for Reservations',
+  },
 };

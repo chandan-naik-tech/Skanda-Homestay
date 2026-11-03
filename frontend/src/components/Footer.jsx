@@ -36,7 +36,7 @@ export default function Footer() {
           <h2 className="footer__h">Explore</h2>
           <ul>
             {NAV_ITEMS.map((item) => <li key={item.id}><Link to={`/#${item.id}`}>{item.label}</Link></li>)}
-            <li><Link to="/#book">Check Availability</Link></li>
+            <li><Link to="/#book">{content.booking?.cta || 'Contact for Reservations'}</Link></li>
           </ul>
         </nav>
 

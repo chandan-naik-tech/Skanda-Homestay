@@ -56,7 +56,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <Link to="/#book" className="btn btn--primary btn--sm nav__cta" onClick={close}>Check Availability</Link>
+        <Link to="/#book" className="btn btn--primary btn--sm nav__cta" onClick={close}>{content.booking?.cta || 'Contact for Reservations'}</Link>
 
         <OwnerChip />
 
@@ -77,7 +77,7 @@ export default function Navbar() {
           {NAV_ITEMS.map((item) => (
             <Link key={item.id} to={`/#${item.id}`} className="nav__mlink" tabIndex={open ? 0 : -1} onClick={close}>{item.label}</Link>
           ))}
-          <Link to="/#book" className="btn btn--primary" tabIndex={open ? 0 : -1} onClick={close}>Check Availability</Link>
+          <Link to="/#book" className="btn btn--primary" tabIndex={open ? 0 : -1} onClick={close}>{content.booking?.cta || 'Contact for Reservations'}</Link>
         </nav>
       </div>
     </header>

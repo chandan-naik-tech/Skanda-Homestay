@@ -43,7 +43,7 @@ export default function Reviews() {
           <Reveal className="reviews-empty">
             <LuQuote aria-hidden="true" />
             <p>Every great stay begins with a warm welcome. Be among our first guests.</p>
-            <Link to="/#book" className="btn btn--primary">Check Availability</Link>
+            <Link to="/#book" className="btn btn--primary">{content.booking?.cta || 'Contact for Reservations'}</Link>
           </Reveal>
         )}
       </div>
