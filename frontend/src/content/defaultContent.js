@@ -23,16 +23,16 @@ export const defaultContent = {
 
   brand: {
     name: 'Skanda Homestay', // the homestay name (shown everywhere, also in enquiry emails)
-    tagline: 'Comfortable 1BHK Stay in Kumta',
-    description: 'A peaceful, well-maintained comfortable 1BHK homestay in Kumta, ideal for families and travellers.',
+    tagline: 'Best Homestay & Family Accommodation in Kumta',
+    description: 'Looking for the best homestay in Kumta? Skanda Homestay is a trusted family homestay Kumta choice offering clean, affordable accommodation Kumta visitors love, ideal for a peaceful family stay in Kumta, clean rooms, and a convenient stay in Uttara Kannada near Gokarna.',
     logoImage: '', // optional: a logo image of your own (for example '/photos/logo.png') replaces the built-in house-and-wave logo
   },
 
   hero: {
     headline: 'Skanda Homestay – Kumta',
-    subtext: 'Discover a comfortable, welcoming place to stay, where every journey feels a little more like home.',
+    subtext: 'Discover the best homestay in Kumta for families and travellers. Enjoy clean rooms, affordable accommodation in Kumta, and a relaxing family stay near Gokarna in Uttara Kannada.',
     image: '/photos/home-front.jpg', // the house, from the front (the owner's own photo)
-    imageAlt: 'The house seen from the front, with a car parked under the carport and coconut palms around it',
+    imageAlt: 'Skanda Homestay in Kumta front view with parking, family accommodation in Uttara Kannada near Gokarna',
   },
 
   contact: {
@@ -48,18 +48,18 @@ export const defaultContent = {
   },
 
   about: {
-    heading: 'A Little Place to Feel at Home.',
+    heading: 'A Peaceful Family Homestay in Kumta',
     imageA: '/photos/bedroom-1.jpg',
-    imageAAlt: 'Bedroom with a floor mattress, pillows, and a barred window with a purple curtain',
+    imageAAlt: 'Spacious and clean rooms in Kumta at Skanda Homestay with comfortable bedding',
     imageB: '/photos/bathroom-1.jpg',
-    imageBAlt: 'Bathroom with white and blue tiles, a toilet, a wall-mounted water heater and a shower',
+    imageBAlt: 'Clean and hygienic bathroom at Skanda Homestay Kumta',
   },
 
   property: {
-    lead: 'A peaceful and well-maintained comfortable 1BHK stay, ideal for families and travellers.',
+    lead: 'A peaceful, well-maintained family homestay in Kumta offering clean and affordable accommodation in Kumta for families and travellers.',
     closing:
-      'Whether you are visiting for a holiday, exploring nearby attractions, traveling for work, or simply looking for a peaceful place to relax, our homestay is designed to offer a comfortable and welcoming experience.',
-    accommodation: 'Comfortable 1BHK Stay',
+      'Whether you are looking for comfortable rooms in Kumta, planning a memorable family stay in Kumta, searching for a homestay near Gokarna, or touring the coast, Skanda Homestay welcomes you for a peaceful stay in Uttara Kannada.',
+    accommodation: 'Family Homestay in Kumta',
     bedrooms: '2 bedrooms', // updated to 2 bedrooms
     livingArea: 'Well maintained, with good space available',
     kitchen: 'Basic use only: heating milk or water, tea and coffee',
@@ -117,14 +117,14 @@ export const defaultContent = {
    * `thumb` is an optional smaller version used in the grid; `width`/`height` stop the page jumping while photos load (uploads fill these in).
    */
   gallery: [
-    { id: 'g-bedroom-1', src: '/photos/bedroom-1.jpg', thumb: '', width: 711, height: 504, alt: 'Bedroom with a floor mattress, pillows, and a barred window with a purple curtain', category: 'Bedroom' },
-    { id: 'g-bedroom-2', src: '/photos/bedroom-2.jpg', thumb: '', width: 689, height: 955, alt: 'Room with a floor mattress, yellow walls and a wooden door, with a kitchen counter at the side', category: 'Bedroom' },
+    { id: 'g-bedroom-1', src: '/photos/bedroom-1.jpg', thumb: '', width: 711, height: 504, alt: 'Clean, comfortable bedroom and rooms in Kumta at Skanda Homestay', category: 'Bedroom' },
+    { id: 'g-bedroom-2', src: '/photos/bedroom-2.jpg', thumb: '', width: 689, height: 955, alt: 'Second bedroom with comfortable bedding for family stay in Kumta', category: 'Bedroom' },
     { id: 'g-kitchen-1', src: '/photos/kitchen-1.jpg', thumb: '', width: 738, height: 544, alt: 'Kitchen corner with a black granite counter, brown cabinets, a sink and a tiled wall', category: 'Kitchen' },
     { id: 'g-bathroom-1', src: '/photos/bathroom-1.jpg', thumb: '', width: 960, height: 1280, alt: 'Bathroom with white and blue tiles, a toilet, a wall-mounted water heater, a shower and a wooden door', category: 'Bathroom' },
-    { id: 'g-exterior-1', src: '/photos/home-front.jpg', thumb: '/photos/home-front-md.jpg', width: 1600, height: 1197, alt: 'The house seen from the front, with a car parked under the carport and coconut palms around it', category: 'Exterior' },
-    { id: 'g-nearby-1', src: '/photos/gokarna-trek.jpg', thumb: '', width: 500, height: 889, alt: 'Gokarna beach trek: a cliff-top path above the sea, from a travel guide graphic', category: 'Nearby' },
-    { id: 'g-nearby-2', src: '/photos/vannalli-beach.jpg', thumb: '', width: 335, height: 597, alt: 'Vannalli Beach: green cliff-top meadow looking out over rocks and the sea', category: 'Nearby' },
-    { id: 'g-nearby-3', src: '/photos/murdeshwar-shiva.jpg', thumb: '', width: 387, height: 516, alt: 'Large seated Shiva statue by the sea at Murdeshwar, seen from above', category: 'Nearby' },
+    { id: 'g-exterior-1', src: '/photos/home-front.jpg', thumb: '/photos/home-front-md.jpg', width: 1600, height: 1197, alt: 'Skanda Homestay front view – best homestay in Kumta with parking and peaceful surroundings in Uttara Kannada', category: 'Exterior' },
+    { id: 'g-nearby-1', src: '/photos/gokarna-trek.jpg', thumb: '', width: 500, height: 889, alt: 'Gokarna beach trek nearby – stay at Skanda Homestay, a convenient homestay near Gokarna', category: 'Nearby' },
+    { id: 'g-nearby-2', src: '/photos/vannalli-beach.jpg', thumb: '', width: 335, height: 597, alt: 'Vannalli Beach: green cliff-top meadow looking out over rocks and the sea near Kumta', category: 'Nearby' },
+    { id: 'g-nearby-3', src: '/photos/murdeshwar-shiva.jpg', thumb: '', width: 387, height: 516, alt: 'Large seated Shiva statue by the sea at Murdeshwar – popular attraction during your stay in Uttara Kannada', category: 'Nearby' },
     { id: 'g-nearby-4', src: '/photos/gunavanteshwara-temple.jpg', thumb: '', width: 480, height: 640, alt: 'Sri Gunavanteshwara Temple with a decorated entrance and a tall flower-decked pillar', category: 'Nearby' },
     { id: 'g-nearby-5', src: '/photos/idagunji-temple.jpg', thumb: '', width: 387, height: 516, alt: 'Shri Idagunji Ganapathi Temple: the carved gateway and signboard', category: 'Nearby' },
     { id: 'g-nearby-6', src: '/photos/temple-gate.jpg', thumb: '', width: 387, height: 516, alt: 'Colourful temple entrance gate with pillars, framed by palm trees', category: 'Nearby' },
@@ -136,37 +136,37 @@ export const defaultContent = {
 
   story: {
     heading: 'More Than Just a Place to Stay.',
-    subheading: "Every Home Has a Story. Here's Mine.",
+    subheading: "Comfortable Rooms & Family Stay in Kumta – Here's Our Story",
     // Draft copy. Edit it so it is true to your own story.
     paragraphs: [
-      'Every memorable journey deserves a comfortable place to return to.',
-      'I wanted to turn my available living space into something meaningful, a place where travelers could relax, feel comfortable, and enjoy their time away from home.',
-      'That idea became the beginning of this homestay.',
-      'My goal is simple: to offer guests a welcoming space, a comfortable stay, and a personal touch that makes their visit memorable.',
-      'Whether you are traveling for a holiday, visiting family, exploring the area, or passing through on a longer journey, I hope this place gives you a little comfort and a feeling of home.',
-      'I look forward to welcoming guests from different places and helping them make wonderful memories during their stay.',
+      'Every memorable journey deserves a comfortable and welcoming place to return to.',
+      'We started Skanda Homestay to create one of the best homestays in Kumta where travelers and families can relax, feel completely at home, and enjoy genuine coastal hospitality.',
+      'Whether you need affordable accommodation in Kumta for a vacation or a peaceful family stay in Kumta while visiting local temples and beaches, we take pride in maintaining clean and welcoming spaces.',
+      'Our goal is simple: to offer guests clean rooms in Kumta, comfortable amenities, and a warm personal touch that makes every visit special.',
+      'Conveniently located for travellers seeking a homestay near Gokarna or exploring the scenic beauty of coastal Karnataka, Skanda Homestay is your ideal choice for a serene stay in Uttara Kannada.',
+      'We look forward to welcoming families and travellers and helping you create wonderful memories during your stay.',
     ],
     image: '/placeholders/story.svg',
     // A short three-step story. Keep it to what is true.
     timeline: [
-      { title: 'The idea', text: 'A vacant 1BHK and a thought: it could be a welcoming place for travelers.' },
-      { title: 'The space', text: 'A peaceful, well-maintained home, kept simple and comfortable for families.' },
-      { title: 'The welcome', text: 'A personal touch for every guest, and help with anything about their stay.' },
+      { title: 'The idea', text: 'Creating a welcoming family homestay in Kumta with clean, peaceful rooms for travelers.' },
+      { title: 'The space', text: 'Affordable accommodation in Kumta designed for a serene, comfortable family stay.' },
+      { title: 'The welcome', text: 'Warm personal hospitality for guests looking for a memorable stay in Uttara Kannada.' },
     ],
   },
 
   owner: {
     name: 'Samartha G. Naik', // the owner's full name
     photo: '/photos/owner.jpg', // the owner's own portrait (cropped 4:5)
-    intro: '',
+    intro: 'Host of Skanda Homestay – welcoming families and travellers for a peaceful stay in Kumta.',
     hometown: 'Hegde, Kumta (U.K)',
     languages: 'Kannada, English, Hindi',
-    philosophy: 'A good place to stay should offer more than just a room: comfort, peace of mind and a welcoming atmosphere.',
+    philosophy: 'A good homestay in Kumta should offer more than just a room: comfort, peace of mind and a welcoming atmosphere.',
     background:
-      'I believe a great stay is more than just a place to sleep—it’s about feeling at home, finding peace, and creating memories. At Skanda Homestay, I strive to offer warm hospitality, thoughtful comfort, and a welcoming space where every guest feels special.',
+      'I believe a great stay is more than just a place to sleep—it’s about feeling at home, finding peace, and creating memories. At Skanda Homestay, I strive to offer warm hospitality, thoughtful comfort, and a welcoming family stay in Kumta where every guest feels special.',
     // Sample text from your brief. Edit it so it sounds like you.
     welcome:
-      "Hello and welcome!\n\nI'm the host behind this homestay. I believe a good place to stay should offer more than just a room — it should provide comfort, peace of mind, and a welcoming atmosphere.\n\nI'm happy to help guests with their stay-related questions and make their visit as comfortable as possible.\n\nI look forward to welcoming you!",
+      "Hello and welcome!\n\nI'm the host behind Skanda Homestay in Kumta. I believe a good place to stay should offer more than just a room — it should provide comfort, peace of mind, and a welcoming atmosphere for families and travellers.\n\nWhether you are looking for clean rooms in Kumta, affordable accommodation, or a peaceful homestay near Gokarna, I'm here to ensure your family stay in Kumta is pleasant and memorable.\n\nI look forward to welcoming you to Uttara Kannada!",
   },
 
   location: {
@@ -181,7 +181,7 @@ export const defaultContent = {
     // emoji and note are optional decorations for the card in the top section (leave them out for a plain row).
     driveTimes: [
       { place: 'Honnavar', time: '15 minutes', emoji: '🌴', note: 'Coastal town & backwaters' },
-      { place: 'Gokarna', time: '30 minutes', emoji: '🏖️', note: 'Beaches & temple town' },
+      { place: 'Gokarna', time: '30 minutes', emoji: '🏖️', note: 'Beaches & temple town (homestay near Gokarna)' },
       { place: 'Murdeshwar', time: '40 minutes', emoji: '🛕', note: 'Shiva temple by the sea' },
     ],
     attractions: [], // e.g. [{ name: 'Om Beach', distance: '10 km', note: 'Quiet beach' }]
